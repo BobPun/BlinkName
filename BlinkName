@@ -1,15 +1,11 @@
 int led1 = D6; 
-
 void setup() {
-
-
     pinMode(led1, OUTPUT);
-
 }
-
 
 void loop() {
     delay(2000);
+    //letter B
     digitalWrite(led1, HIGH);
     delay(600);
     digitalWrite(led1, LOW);
@@ -29,6 +25,7 @@ void loop() {
     
     delay(1000);
     
+    //letter H
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
@@ -45,10 +42,10 @@ void loop() {
     delay(200);
     digitalWrite(led1, LOW);
     delay(200);
-    
-    
+   
     delay(1000);
     
+    //letter A
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
@@ -60,6 +57,7 @@ void loop() {
     
     delay(1000);
     
+    //letter V
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
@@ -79,6 +77,7 @@ void loop() {
     
     delay(1000);
     
+    //letter I
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
@@ -90,25 +89,7 @@ void loop() {
     
     delay(1000);
     
-    digitalWrite(led1, HIGH);
-    delay(200);
-    digitalWrite(led1, LOW);
-    delay(200);
-    digitalWrite(led1, HIGH);
-    delay(200);
-    digitalWrite(led1, LOW);
-    delay(200);
-    digitalWrite(led1, HIGH);
-    delay(200);
-    digitalWrite(led1, LOW);
-    delay(200);
-    
-    delay(1000);
-    
-    digitalWrite(led1, HIGH);
-    delay(200);
-    digitalWrite(led1, LOW);
-    delay(200);
+    //letter S
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
@@ -124,6 +105,27 @@ void loop() {
     
     delay(1000);
     
+    //letter H
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(1000);
+    
+    //letter Y
     digitalWrite(led1, HIGH);
     delay(600);
     digitalWrite(led1, LOW);
@@ -143,6 +145,7 @@ void loop() {
     
     delay(1000);
     
+    //letter A
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
